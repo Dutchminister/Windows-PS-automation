@@ -1,0 +1,10 @@
+wireshark
+notepadplusplus.install
+adobereader
+7zip.install
+vscode
+vscode-insiders
+microsoft-teams.install
+virtualbox
+mobaxterm
+etcher
