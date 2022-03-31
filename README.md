@@ -12,4 +12,5 @@ Tested on Windows 10 Pro and Home
 
 Find packages and more information on Chocolatey here:
 https://community.chocolatey.org/packages
+
 https://docs.chocolatey.org/en-us/
