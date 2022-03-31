@@ -11,6 +11,7 @@ Tested on Windows 10 Pro and Home
 6. Chocolatey Logs can be used to troubleshoot if needed.
 
 Find packages and more information on Chocolatey here:
+
 https://community.chocolatey.org/packages
 
 https://docs.chocolatey.org/en-us/
