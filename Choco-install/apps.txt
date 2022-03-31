@@ -3,7 +3,6 @@ windirstat
 powertoys
 malwarebytes
 hwmonitor
-potplayer
 googlechrome
 zoom
 notepadplusplus.install
