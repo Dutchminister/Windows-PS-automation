@@ -1,7 +1,7 @@
 # Windows-Choco-Install
 PowerShell script to automate chocolatey install and update process of software.
 
-Tested on Windows 10
+Tested on Windows 10 Pro and Home
 
 1. Update "apps.txt" with desired programs to be installed.
 2. Run the powershell script in Admin mode.
