@@ -1,4 +1,4 @@
-# Windows-Choco-Install
+# Chocolatey-Install
 PowerShell script to automate install and update process of software.
 
 Tested on Windows 10 Pro and Home
