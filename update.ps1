@@ -12,9 +12,7 @@ $LogDir = Join-Path $PSScriptRoot $CurrentFolder
 $AppList = Join-Path $PSScriptRoot "\apps.txt"
 
 If (!(test-path $LogDir)) {New-Item $LogDir -ItemType Directory}
-
 $LogFile = "$LogDir\chocolatey_log_$(Get-Date -UFormat "%Y-%m-%d")"
-
 
 # Attempt to upgrade chocolatey (and all installed packages) else (if the command fails) install it.
 try {
@@ -29,9 +27,7 @@ $AppsToInstall = @(Get-Content $AppList)
 
 # Loop through each app and install it, will automatically skip if already installed
 foreach ($App in $AppsToInstall) {
-    
         choco install $App -y -r --no-progress --log-file=$LogFile
-    
         }
 
 # Remove log files over 10 days old
